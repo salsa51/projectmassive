@@ -33,17 +33,21 @@ export const Keranjang = () => {
                             <span className="text-black tracking-[0.05px]"> Parto</span>
                         </p>
                     </div>
+                    <Link to="/ChatbotSidecol">
                     <img className="absolute w-8 h-23 top-9 left-[1020px]" alt="Communication" src="chat.svg" />
+                    </Link>
                     <div className="w-[272px] left-[19px] absolute h-[104px] top-0">
                         <div className="relative h-[104px]">
                             <div className="absolute w-[272px] h-[73px] top-[15px] left-0 bg-white" />
                             <div className="w-[261px] left-0 absolute h-[104px] top-0">
                                 <div className="relative w-[259px] h-[104px]">
+                                <Link to="/LandingPage">
                                     <img
                                         className="h-[104px] top-0 left-0 absolute w-[109px] object-cover"
                                         alt="Whatsapp image"
                                         src="whatsapp-image-2024-05-07-at-19-04-1.png"
                                     />
+                                     </Link>
                                     <div className="absolute w-[170px] top-[42px] left-[89px] [font-family:'Poppins-Bold',Helvetica] font-bold text-black text-xl tracking-[0.40px] leading-5 whitespace-nowrap">
                                         Digital Foods
                                     </div>
@@ -197,10 +201,13 @@ export const Keranjang = () => {
                     Subtotal Produk
                 </div>
                 <div className="absolute w-[413px] h-11 top-[969px] left-[916px] rounded-[15px]">
+                  
                     <div className="absolute w-[413px] h-11 top-0 left-0 bg-neutral-700 rounded-[15px]" />
+                    <Link to="/pembayaran">
                     <div className="absolute w-[124px] top-[11px] left-[145px] [font-family:'Archivo-Bold',Helvetica] font-bold text-white text-1xl ">
                         Check Out
                     </div>
+                    </Link>
                 </div>
                 <div className="top-[884px] left-[1174px] absolute [font-family:'Archivo-Medium',Helvetica] font-medium text-black text-2xl tracking-[0.48px] leading-5 whitespace-nowrap">
                     Rp. 20.000
