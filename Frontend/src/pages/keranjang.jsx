@@ -3,6 +3,7 @@ import React from "react";
 import { CiSearch } from "react-icons/ci";
 import { RiDeleteBin5Fill } from "react-icons/ri";
 import { IoChevronBack } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 export const Keranjang = () => {
     return (
@@ -80,7 +81,9 @@ export const Keranjang = () => {
                 <div className="absolute top-[354px] left-[388px] [font-family:'Archivo-Medium',Helvetica] font-medium text-[#898989] text-xl tracking-[0.40px] leading-5 whitespace-nowrap">
                     1Kg
                 </div>
+                 <Link to="/DetailProductBahan">
                 <IoChevronBack className="absolute w-[68px] h-11 top-[109px] left-7 color-#02040F" />
+                </Link>
                 <img
                     className="absolute w-[150px] h-[139px] top-[277px] left-40 object-cover"
                     alt="Rectangle"

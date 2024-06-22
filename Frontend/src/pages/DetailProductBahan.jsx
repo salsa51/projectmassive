@@ -11,6 +11,7 @@ import { Link } from "react-router-dom";
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
+
 export const DetailProductBahan = () => {
      const navigate = useNavigate();
         const [jumlahPembelian, setJumlahPembelian] = useState(1);
@@ -192,10 +193,12 @@ export const DetailProductBahan = () => {
         </div>
       </div>
       <div className="flex w-[236px] items-start gap-2 relative flex-[0_0_auto] mr-[-48.00px]">
-        <div className="flex w-[97px] h-[38px] items-center justify-end gap-2.5 p-2.5 relative bg-white rounded-[5px] border border-solid border-[#000000]">
-          <div className="relative flex-1 mt-[-4.00px] mb-[-2.00px] [font-family:'Archivo-Bold',Helvetica] font-bold text-[#000000] text-xs text-center tracking-[0] leading-6">
+        <div className="flex w-[97px] h-[38px] items-center justify-center gap-2.5 p-2.5 relative bg-white rounded-[5px] border border-solid border-[#000000]">
+        <Link to="/pembayaran">
+          <div className="relative flex-1 mt-[-4.00px] items-center justify-center mb-[-2.00px] [font-family:'Archivo-Bold',Helvetica] font-bold text-[#000000] text-xs text-center tracking-[0] leading-6">
             Beli
           </div>
+          </Link>
         </div>
         <div className="flex w-[124px] h-[38px] items-center justify-center gap-2.5 p-1 relative bg-[#1d5d4f] rounded-[1px] border border-solid border-[#000000]">
         <Link to="/keranjang"> 
@@ -475,7 +478,7 @@ export const DetailProductBahan = () => {
                         {/* <DownArrow24Outline className="!relative !w-12 !h-12" /> */}
                     </div>
                 </div>
-                <img className="absolute w-[1440px] h-[393px] top-[1930px] left-0" alt="Group" src="group-103.png" />
+                
             </div>
         </div>
     );

@@ -10,9 +10,10 @@ import MarketPlace from './pages/MarketPlace'
 import Keranjang from './pages/keranjang'
 import DetailProductBahan from './pages/DetailProductBahan'
 import Kontak from './pages/Kontak'
-// import ChatbotSidecol from './pages/ChatbotSidecol'
-// import Chatbot from './pages/Chatbot'
+import ChatbotSidecol from './pages/ChatbotSidecol'
+import Chatbot from './pages/Chatbot'
 import { useLocation } from 'react-router-dom';
+import { MenuPayment } from './pages/pembayaran'
 
 
 
@@ -23,22 +24,6 @@ const Main = () => {
   return (
     <div> 
       
-      {/* <NavbarWeb
-    buttonClassName="navbar-web-2"
-    buttonClassNameOverride="navbar-web-2"
-    className="navbar-web-instance"
-    divClassName="design-component-instance-node"
-    hasButton={false}
-    logoipsum="2-2.svg"
-  />
-  <img className="whatsa-image" alt="Whatsapp image" src="WhatsApp_Image.png" />
-  <div className="text-wrapper-11">Digital Foods</div>
-  <img className="unsplash-jx" alt="Unsplash jx" src="unsplash_jX_07BO1jus.png" />
-  <img className="img" alt="Vector" src="Vector-m.svg" />
-  <p className="hi-parto">
-    <span className="span">Hi,</span>
-    <span className="text-wrapper-12"> Parto</span>
-  </p> */}
 
 
      {/* <BrowserRouter> */}
@@ -46,17 +31,22 @@ const Main = () => {
         {/* Routes that use NavLayout */}
         <Route path="/LandingPage" element={<NavLayout><LandingPage /></NavLayout>} />
         <Route path="/TentangKami" element={<NavLayout><TentangKami /></NavLayout>} />
-        <Route path="/Keranjang" element={<NavLayout><Keranjang /></NavLayout>} />
-        <Route path="/DetailProductBahan" element={<NavLayout><DetailProductBahan /></NavLayout>} />
+        
         <Route path="/Kontak" element={<NavLayout><Kontak /></NavLayout>} />
         
          {/* Routes without NavLayout and Footer */}
         <Route path="/SignIn" element={<SignIn />} />
         <Route path="/SignUp" element={<SignUp />} />
+        <Route path="/ChatbotSidecol" element={<ChatbotSidecol />} />
+        <Route path="/Chatbot" element={<Chatbot />} />
+
 
 
         {/* Route that does not use NavLayout */}
         <Route path="/MarketPlace" element={<MarketPlace />} />
+        <Route path="/Keranjang" element={<Keranjang />} />
+        <Route path="/DetailProductBahan" element={<DetailProductBahan />} />
+        <Route path="/pembayaran" element={<MenuPayment />} />
       </Routes>
       {showFooter && <Footer />}
     {/* </BrowserRouter> */}
