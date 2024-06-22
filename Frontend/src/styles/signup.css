@@ -1,0 +1,438 @@
+.sign-up-pengelolah {
+    background-color: #fff2d7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.sign-up-pengelolah .div {
+    background-color: #fff2d7;
+    height: 1024px;
+    position: relative;
+    width: 1440px;
+}
+
+.sign-up-pengelolah .overlap {
+    background-image: url(./unsplash-va1l1jrtm70.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 1024px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 635px;
+}
+
+.sign-up-pengelolah .whatsapp-image {
+    height: 132px;
+    left: 29px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 138px;
+}
+
+.sign-up-pengelolah .text-wrapper {
+    color: #000000;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 142px;
+    letter-spacing: 0.48px;
+    line-height: 20px;
+    position: absolute;
+    top: 52px;
+    white-space: nowrap;
+}
+
+.sign-up-pengelolah .overlap-group {
+    height: 779px;
+    left: 844px;
+    position: absolute;
+    top: 80px;
+    width: 433px;
+}
+
+.sign-up-pengelolah .frame {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 16px;
+    left: 0;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+}
+
+.sign-up-pengelolah .frame-2 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.sign-up-pengelolah .p {
+    color: #000000;
+    font-family: "Archivo-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.48px;
+    line-height: 20px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.sign-up-pengelolah .mari-kita-sama-sama {
+    color: #000000;
+    font-family: "Archivo-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.24px;
+    line-height: 20px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.sign-up-pengelolah .frame-3 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 10px;
+    position: relative;
+}
+
+.sign-up-pengelolah .text-wrapper-2 {
+    color: #000000;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 410;
+    letter-spacing: 0;
+    line-height: 7px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.sign-up-pengelolah .frame-4 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    position: relative;
+}
+
+.sign-up-pengelolah .frame-5 {
+    align-items: center;
+    background-color: #cab2b2;
+    border-radius: 6px;
+    display: flex;
+    height: 47px;
+    justify-content: center;
+    position: relative;
+    width: 197px;
+}
+
+.sign-up-pengelolah .icon-instance-node {
+    height: 24px !important;
+    position: relative !important;
+    width: 24px !important;
+}
+
+.sign-up-pengelolah .login-google {
+    color: #000000;
+    font-family: var(--paragraf-p-font-family);
+    font-size: var(--paragraf-p-font-size);
+    font-style: var(--paragraf-p-font-style);
+    font-weight: var(--paragraf-p-font-weight);
+    letter-spacing: var(--paragraf-p-letter-spacing);
+    line-height: var(--paragraf-p-line-height);
+    position: relative;
+    text-align: center;
+    width: 119px;
+}
+
+.sign-up-pengelolah .login-facebook {
+    color: #000000;
+    font-family: var(--paragraf-p-font-family);
+    font-size: var(--paragraf-p-font-size);
+    font-style: var(--paragraf-p-font-style);
+    font-weight: var(--paragraf-p-font-weight);
+    letter-spacing: var(--paragraf-p-letter-spacing);
+    line-height: var(--paragraf-p-line-height);
+    position: relative;
+    text-align: center;
+    width: 138px;
+}
+
+.sign-up-pengelolah .frame-6 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px 0px;
+    position: relative;
+}
+
+.sign-up-pengelolah .frame-7 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px 0px;
+    position: relative;
+}
+
+.sign-up-pengelolah .text-wrapper-3 {
+    color: #000000;
+    font-family: "Archivo-Bold", Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.28px;
+    line-height: 20px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.sign-up-pengelolah .div-wrapper {
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    height: 43px;
+    padding: 0px 16px;
+    position: relative;
+    width: 412px;
+}
+
+.sign-up-pengelolah .text-wrapper-4 {
+    color: #000000;
+    font-family: var(--caption-font-family);
+    font-size: var(--caption-font-size);
+    font-style: var(--caption-font-style);
+    font-weight: var(--caption-font-weight);
+    letter-spacing: var(--caption-letter-spacing);
+    line-height: var(--caption-line-height);
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+
+}
+
+.sign-up-pengelolah .frame-wrapper {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    padding: 5px 0px;
+    position: relative;
+}
+
+.sign-up-pengelolah .frame-8 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 16px;
+    position: relative;
+}
+
+.sign-up-pengelolah .text-wrapper-5 {
+    color: #000000;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.sign-up-pengelolah .frame-9 {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    height: 149px;
+    padding: 0px 10px;
+    position: relative;
+    width: 409px;
+}
+
+.sign-up-pengelolah .text-wrapper-6 {
+    color: #000000;
+    font-family: var(--caption-font-family);
+    font-size: var(--caption-font-size);
+    font-style: var(--caption-font-style);
+    font-weight: var(--caption-font-weight);
+    letter-spacing: var(--caption-letter-spacing);
+    line-height: var(--caption-line-height);
+    
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.sign-up-pengelolah .frame-10 {
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    height: 43px;
+    padding: 0px 16px;
+    position: relative;
+    width: 411px;
+}
+
+.sign-up-pengelolah .dengan-mendaftar {
+    color: #000000;
+    font-family: var(--body-2-font-family);
+    font-size: var(--body-2-font-size);
+    font-style: var(--body-2-font-style);
+    font-weight: var(--body-2-font-weight);
+    letter-spacing: var(--body-2-letter-spacing);
+    line-height: var(--body-2-line-height);
+    margin-top: -1px;
+    position: relative;
+    text-align: justify;
+    width: 413px;
+}
+
+.sign-up-pengelolah .span {
+    color: #000000;
+    font-family: var(--body-2-font-family);
+    font-size: var(--body-2-font-size);
+    font-style: var(--body-2-font-style);
+    font-weight: var(--body-2-font-weight);
+    letter-spacing: var(--body-2-letter-spacing);
+    line-height: var(--body-2-line-height);
+}
+
+.sign-up-pengelolah .frame-11 {
+    align-items: center;
+    background-color: #ff8911;
+    border-radius: 6px;
+    display: flex;
+    gap: 148px;
+    height: 47px;
+    justify-content: space-around;
+    position: relative;
+    width: 409px;
+}
+
+.sign-up-pengelolah .text-wrapper-7 {
+    color: #000000;
+    font-family: var(--paragraf-p-font-family);
+    font-size: var(--paragraf-p-font-size);
+    font-style: var(--paragraf-p-font-style);
+    font-weight: var(--paragraf-p-font-weight);
+    letter-spacing: var(--paragraf-p-letter-spacing);
+    line-height: var(--paragraf-p-line-height);
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.sign-up-pengelolah .sudah-memiliki-akun {
+    color: transparent;
+    font-family: "Roboto-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 12px;
+    margin-top: -1px;
+    position: relative;
+    text-align: justify;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.sign-up-pengelolah .text-wrapper-8 {
+    color: #000000;
+}
+
+.sign-up-pengelolah .text-wrapper-9 {
+    color: #0da500;
+}
+
+.sign-up-pengelolah .frame-12 {
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: var(--secondary-color);
+    border-radius: 6px;
+    display: flex;
+    height: 48px;
+    justify-content: center;
+    left: 14px;
+    position: absolute;
+    top: 98px;
+    width: 197px;
+}
+
+.sign-up-pengelolah .image {
+    height: 24px;
+    object-fit: cover;
+    position: relative;
+    width: 24px;
+}
+
+.sign-up-pengelolah .login-google-2 {
+    color: var(--black);
+    font-family: var(--body-1-font-family);
+    font-size: var(--body-1-font-size);
+    font-style: var(--body-1-font-style);
+    font-weight: var(--body-1-font-weight);
+    letter-spacing: var(--body-1-letter-spacing);
+    line-height: var(--body-1-line-height);
+    position: relative;
+    text-align: center;
+    width: 119px;
+}
+
+.sign-up-pengelolah .frame-13 {
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: var(--secondary-color);
+    border-radius: 6px;
+    display: flex;
+    height: 47px;
+    justify-content: center;
+    left: 221px;
+    position: absolute;
+    top: 98px;
+    width: 197px;
+}
+
+.sign-up-pengelolah .login-facebook-2 {
+    color: var(--black);
+    font-family: var(--body-1-font-family);
+    font-size: var(--body-1-font-size);
+    font-style: var(--body-1-font-style);
+    font-weight: var(--body-1-font-weight);
+    letter-spacing: var(--body-1-letter-spacing);
+    line-height: var(--body-1-line-height);
+    position: relative;
+    text-align: center;
+    width: 138px;
+}

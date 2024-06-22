@@ -1,0 +1,558 @@
+.market-place-semua {
+    background-color: #fff2d7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .market-place-semua .div-8 {
+    background-color: #fff2d7;
+    height: 3091px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .market-place-semua .overlap {
+    height: 120px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .market-place-semua .navbar-marketplace {
+    background-color: #ffffff;
+    box-shadow: 0px 8px 8px 2px #00000040;
+    height: 72px;
+    left: 0;
+    gap: 70px;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+    justify-content: space-between;
+  }
+  
+  .market-place-semua .frame-10 {
+    align-items: center;
+    display: inline-flex;
+    gap: 24px;
+    left: 112px;
+    position: absolute;
+    top: 14px;
+  }
+  
+  .market-place-semua .logoipsum {
+    height: 44px;
+    position: relative;
+    width: 164px;
+    line-height: 20px;
+    top: 28px;
+    white-space: nowrap;
+  }
+  
+  .market-place-semua .frame-11 {
+    align-items: flex-start;
+    display: flex;
+    position: relative;
+    width: 688px;
+  }
+  
+  .market-place-semua .content {
+    align-items: center;
+    background-color: var(--grey-10);
+    border: 1px solid;
+    border-color: var(--grey-40);
+    border-radius: 8px 0px 0px 8px;
+    display: flex;
+    height: 44px;
+    padding: 12px 127px 12px 12px;
+    position: relative;
+    width: 619px;
+  }
+  
+  .market-place-semua .left-part {
+    align-items: center;
+    display: flex;
+    gap: 4px;
+    position: relative;
+    width: 343px;
+  }
+  
+  .market-place-semua .text {
+    color: var(--grey-60);
+    font-family: var(--archivo-body-input-font-family);
+    font-size: var(--archivo-body-input-font-size);
+    font-style: var(--archivo-body-input-font-style);
+    font-weight: var(--archivo-body-input-font-weight);
+    letter-spacing: var(--archivo-body-input-letter-spacing);
+    line-height: var(--archivo-body-input-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .market-place-semua .icon-research-wrapper {
+    align-items: center;
+    background-color: #d9d9d9;
+    border-radius: 0px 10px 10px 0px;
+    display: flex;
+    gap: 10px;
+    height: 44px;
+    justify-content: center;
+    padding: 3px;
+    position: relative;
+    width: 69px;
+    right: 60px;
+  }
+
+
+  .market-place-semua .icon-research {
+    height: 50px !important;
+    position: relative !important;
+    width: 24px !important;
+  }
+  
+  .market-place-semua .icon-instance-node {
+    height: 24px !important;
+    position: relative !important;
+    width: 24px !important;
+  }
+  
+  .market-place-semua .keranjang {
+    height: 33px;
+    left: 560px;
+    position: relative;
+    width: 33px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .market-place-semua .chat {
+    height: 33px;
+    left: 340px;
+    position: relative;
+    width: 33px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .market-place-semua .vector {
+    height: 33px;
+    left: 1211px;
+    position: absolute;
+    top: 20px;
+    width: 33px;
+  }
+  
+  .market-place-semua .hi-parto {
+    color: transparent;
+    font-family: "Roboto-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    left: 1250px;
+    letter-spacing: 0.32px;
+    line-height: 20px;
+    position: absolute;
+    top: 28px;
+    white-space: nowrap;
+  }
+  
+  .market-place-semua .span {
+    color: #5f5f5f;
+    letter-spacing: 0.05px;
+  }
+  
+  .market-place-semua .text-wrapper-8 {
+    color: #000000;
+    letter-spacing: 0.05px;
+  }
+  
+  .market-place-semua .overlap-wrapper {
+    height: 48px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 72px;
+    width: 1440px;
+  }
+  
+  .market-place-semua .overlap-group {
+    height: 49px;
+    position: relative;
+  }
+  
+  .market-place-semua .overlap-group-2 {
+    height: 49px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .market-place-semua .frame-12 {
+    align-items: center;
+    display: inline-flex;
+    gap: 24px;
+    left: 112px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .market-place-semua .frame-13 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 24px;
+    position: relative;
+  }
+  
+  .market-place-semua .frame-14 {
+    align-items: center;
+    background-color: #FFF2D7;
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 5px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    height: 32px;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .market-place-semua .text-wrapper-9 {
+    color: #000000;
+    font-family: "Archivo-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.32px;
+    line-height: 20px;
+    margin-bottom: -3px;
+    margin-top: -5px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .market-place-semua .frame-15 {
+    align-items: center;
+    background-color: #FFF2D7;
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 5px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    height: 32px;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .market-place-semua .text-wrapper-10 {
+    color: #000000;
+    font-family: "Archivo-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.32px;
+    line-height: 20px;
+    margin-bottom: -3px;
+    margin-top: -5px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .market-place-semua .frame-16 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 16px;
+    position: relative;
+    
+  }
+  
+  .market-place-semua .frame-17 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    padding: 12px 10px;
+    position: relative;
+  margin-bottom: 3px;
+  }
+  
+  .market-place-semua .frame-18 {
+    align-items: center;
+  
+    flex: 0 0 auto;
+    gap: 12px;
+    position: relative;
+    display: flex;
+  
+  }
+  
+  .market-place-semua .text-wrapper-11 {
+    color: #000000;
+    font-family: "Archivo-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.32px;
+    line-height: 20px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .market-place-semua .line {
+    height: 48px;
+    margin-right: -1px;
+    object-fit: cover;
+    position: relative;
+    width: 1px;
+  }
+  
+  .market-place-semua .line-2 {
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 47px;
+    width: 1440px;
+  }
+  
+  .market-place-semua .text-wrapper-12 {
+    color: #4e4e4e;
+    font-family: "Archivo-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 774px;
+    letter-spacing: 0.32px;
+    line-height: 20px;
+    position: absolute;
+    top: 13px;
+    white-space: nowrap;
+  }
+  
+  .market-place-semua .whatsapp-image {
+    height: 75px;
+    left: 7px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 100px;
+  
+  }
+  
+  .market-place-semua .text-wrapper-13 {
+    color: #000000;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 96px;
+    letter-spacing: 0.4px;
+    line-height: 20px;
+    position: absolute;
+    top: 25px;
+    white-space: nowrap;
+    width: 170px;
+  }
+  
+  .market-place-semua .text-wrapper-14 {
+    color: #000000;
+    font-family: "Archivo-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 845px;
+    letter-spacing: 0.32px;
+    line-height: 20px;
+    position: absolute;
+    top: 273px;
+    width: 462px;
+  }
+  
+  .market-place-semua .overlap-2 {
+    height: 292px;
+    left: 68px;
+    position: absolute;
+    top: 203px;
+    width: 720px;
+  }
+  
+  .market-place-semua .frame-19 {
+    align-items: center;
+    display: inline-flex;
+    gap: 16px;
+    justify-content: center;
+    left: 337px;
+    position: absolute;
+    top: 246px;
+  }
+  
+  .market-place-semua .ellipse {
+    background-color: #000000;
+    border-radius: 8px;
+    height: 16px;
+    position: relative;
+    width: 16px;
+  }
+  
+  .market-place-semua .unsplash {
+    height: 292px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 720px;
+  }
+  
+  .market-place-semua .chiller-frozen {
+    color: #000000;
+    font-family: "Archivo-Bold", Helvetica;
+    font-size: 48px;
+    font-weight: 700;
+    left: 114px;
+    letter-spacing: 0;
+    line-height: 20px;
+    position: absolute;
+    top: 1661px;
+    white-space: nowrap;
+  }
+  
+  .market-place-semua .text-wrapper-15 {
+    color: #000000;
+    font-family: "Archivo-SemiBold", Helvetica;
+    font-size: 48px;
+    font-weight: 600;
+    left: 111px;
+    letter-spacing: 0;
+    line-height: 20px;
+    position: absolute;
+    top: 577px;
+    white-space: nowrap;
+  }
+  
+  .market-place-semua .text-wrapper-16 {
+    color: #000000;
+    font-family: "Archivo-SemiBold", Helvetica;
+    font-size: 48px;
+    font-weight: 600;
+    left: 112px;
+    letter-spacing: 0;
+    line-height: 20px;
+    position: absolute;
+    top: 1111px;
+    white-space: nowrap;
+  }
+  
+  .market-place-semua .frame-20 {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 16px;
+    left: 112px;
+    position: absolute;
+    top: 630px;
+  }
+  
+  .market-place-semua .frame-21 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 32px;    
+    justify-content: center;
+    position: relative;
+  }
+  
+  .market-place-semua .frame-535 {
+    background-color: #ffffff !important;
+    border-radius: 16px !important;
+    box-shadow: 4px 4px 8px #00000040 !important;
+    flex: 0 0 auto !important;
+  }
+  
+  .market-place-semua .design-component-instance-node {
+    background-color: unset !important;
+  }
+  
+  .market-place-semua .icon-down-arrow {
+    height: 48px !important;
+    position: relative !important;
+    width: 48px !important;
+  }
+  
+  .market-place-semua .frame-22 {
+    align-items: center;
+    border-radius: 16px;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 16px;
+    left: 111px;
+    position: absolute;
+    top: 1164px;
+
+    
+
+  }
+
+  
+  .market-place-semua .frame-23 {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 50px;
+    left: 112px;
+    position: absolute;
+    top: 1714px;
+
+  }
+ 
+  
+  .market-place-semua .frame-24 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 50px;    
+    justify-content: center;
+    position: relative;
+  }
+  
+  .market-place-semua .frame-25 {
+    align-items: center;
+    border-radius: 16px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 50px;   
+    justify-content: center;
+    position: relative;
+  }
+  .market-place-semua .frame-26 {
+    align-items: center;
+    border-radius: 16px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 50px;   
+    justify-content: center;
+    position: relative;
+  }
+  
+  .market-place-semua .frame-557 {
+    background-color: #ffffff !important;
+    border-radius: 16px !important;
+    box-shadow: 4px 4px 8px #00000040 !important;
+    flex: 0 0 auto !important;
+  }
+
+  
+  .market-place-semua .group {
+    height: 419px;
+    left: 0;
+    position: absolute;
+    top: 2672px;
+    width: 1440px;
+  }
+  
+  

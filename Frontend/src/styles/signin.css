@@ -1,0 +1,344 @@
+.sign-in {
+    background-color: #fff2d7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .sign-in .div {
+    background-color: #fff2d7;
+    height: 1024px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .sign-in .overlap {
+    background-image: url(./rectangle.png);
+    background-size: 100% 100%;
+    height: 1024px;
+    left: 720px;
+    position: absolute;
+    top: 0;
+    width: 720px;
+  }
+  
+  .sign-in .unsplash {
+    height: 1022px;
+    left: 3px;
+    position: absolute;
+    top: 0;
+    width: 717px;
+  }
+  
+  .sign-in .overlap-group {
+    height: 132px;
+    left: 29px;
+    position: absolute;
+    top: 0;
+    width: 279px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sign-in .whatsapp-image {
+    height: 132px;
+    left: 29px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 138px;
+  }
+  
+  .sign-in .text-wrapper {
+    color: #000000;
+    font-family: "Poppins-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    left: 142px;
+    letter-spacing: 0.48px;
+    line-height: 20px;
+    position: absolute;
+    top: 52px;
+    white-space: nowrap;
+  }
+  
+  .sign-in .frame {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: 432px;
+    left: 98px;
+    position: absolute;
+    top: 285px;
+    width: 458px;
+  }
+  
+  .sign-in .text-wrapper-2 {
+    color: var(--black);
+    font-family: var(--heading-5-font-family);
+    font-size: var(--heading-5-font-size);
+    font-style: var(--heading-5-font-style);
+    font-weight: var(--heading-5-font-weight);
+    letter-spacing: var(--heading-5-letter-spacing);
+    line-height: var(--heading-5-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .sign-in .frame-2 {
+    align-items: flex-end;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 14px;
+    position: relative;
+  }
+  
+  .sign-in .frame-3 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 21px;
+    position: relative;
+  }
+  
+  .sign-in .frame-wrapper {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #aaaaaa;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 44px;
+    justify-content: center;
+    padding: 0px 16px;
+    position: relative;
+    width: 400px;
+  }
+  
+  .sign-in .frame-4 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 16px;
+    position: relative;
+  }
+  
+  .sign-in .img {
+    height: 24px;
+    position: relative;
+    width: 24px;
+  }
+  
+  .sign-in .text-wrapper-3 {
+    color: #646464;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .sign-in .frame-5 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+  }
+  
+  .sign-in .frame-6 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 6px;
+    position: relative;
+  }
+  
+  .sign-in .checkbox-instance {
+    background-color: #ffffff !important;
+    border-color: #000000 !important;
+    position: relative !important;
+  }
+  
+  .sign-in .text-wrapper-4 {
+    color: #000000;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .sign-in .text-wrapper-5 {
+    color: #000000;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    text-decoration: underline;
+    width: fit-content;
+  }
+  
+  .sign-in .frame-7 {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+  }
+  
+  .sign-in .frame-8 {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .sign-in .line {
+    flex: 1;
+    flex-grow: 1;
+    height: 2px;
+    position: relative;
+  }
+  
+  .sign-in .text-wrapper-6 {
+    color: var(--gray);
+    font-family: var(--text-paragraf-text-font-family);
+    font-size: var(--text-paragraf-text-font-size);
+    font-style: var(--text-paragraf-text-font-style);
+    font-weight: var(--text-paragraf-text-font-weight);
+    letter-spacing: var(--text-paragraf-text-letter-spacing);
+    line-height: var(--text-paragraf-text-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .sign-in .frame-9 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .sign-in .frame-10 {
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: var(--secondary-color);
+    border-radius: 6px;
+    display: flex;
+    height: 47px;
+    justify-content: center;
+    position: relative;
+    width: 196px;
+  }
+  
+  .sign-in .image {
+    height: 24px;
+    object-fit: cover;
+    position: relative;
+    width: 24px;
+  }
+  
+  .sign-in .login-google {
+    color: var(--black);
+    font-family: var(--body-1-font-family);
+    font-size: var(--body-1-font-size);
+    font-style: var(--body-1-font-style);
+    font-weight: var(--body-1-font-weight);
+    letter-spacing: var(--body-1-letter-spacing);
+    line-height: var(--body-1-line-height);
+    position: relative;
+    text-align: center;
+    width: 119px;
+  }
+  
+  .sign-in .login-facebook {
+    color: var(--black);
+    font-family: var(--body-1-font-family);
+    font-size: var(--body-1-font-size);
+    font-style: var(--body-1-font-style);
+    font-weight: var(--body-1-font-weight);
+    letter-spacing: var(--body-1-letter-spacing);
+    line-height: var(--body-1-line-height);
+    position: relative;
+    text-align: center;
+    width: 138px;
+  }
+  
+  .sign-in .div-wrapper {
+    align-items: center;
+    background-color: #ff8911;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    height: 44px;
+    justify-content: center;
+    position: relative;
+    width: 400px;
+  }
+  
+  .sign-in .text-wrapper-7 {
+    color: #000000;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .sign-in .frame-11 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 4px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .sign-in .text-wrapper-8 {
+    color: #3359bd;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    text-decoration: underline;
+    width: fit-content;
+  }
+  
+
+
+
+ 
